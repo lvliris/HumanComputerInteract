@@ -1,0 +1,72 @@
+﻿生成启动时间为 2018/1/9 12:48:14。
+     1>项目“E:\LV\Kinect\project\KinectMouse_3\KinectMouse\KinectMouse.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (HelloKinectCpp1.vcxproj, KinectOperaFace.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\learning\vs2013.5_ult_chs\az\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\KinectMouse.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\learning\vs2013.5_ult_chs\az\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\KinectMouse.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt KinectJointFilter.cpp main.cpp myKinect.cpp
+         myKinect.cpp
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.h(110): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.h(111): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.h(112): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.h(196): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.h(197): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.h(198): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(177): warning C4244: “初始化”: 从“time_t”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(314): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(315): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(328): warning C4305: “参数”: 从“double”到“float”截断
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(347): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(348): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(349): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(352): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(353): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(354): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(374): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(375): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(614): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(615): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(634): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(635): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(656): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(657): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(658): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(661): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(662): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(663): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(666): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(667): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(668): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(671): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(672): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(673): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(676): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(677): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(584): warning C4101: “faceProperties”: 未引用的局部变量
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(856): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(879): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(900): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(901): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(933): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(934): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+         main.cpp
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.h(110): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.h(111): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.h(112): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.h(196): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.h(197): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.h(198): warning C4305: “初始化”: 从“double”到“const float”截断
+         KinectJointFilter.cpp
+         正在生成代码...
+     1>e:\lv\kinect\project\kinectmouse_3\kinectmouse\mykinect.cpp(791): warning C4715: “CBodyBasics::ProcessFaces”: 不是所有的控件路径都返回值
+       Link:
+         D:\learning\vs2013.5_ult_chs\az\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\LV\Kinect\project\KinectMouse_3\Debug\KinectMouse.exe" /INCREMENTAL /NOLOGO opencv_core2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib Kinect20.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\LV\Kinect\project\KinectMouse_3\Debug\KinectMouse.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\LV\Kinect\project\KinectMouse_3\Debug\KinectMouse.lib" /MACHINE:X86 Debug\KinectJointFilter.obj
+         Debug\main.obj
+         Debug\myKinect.obj
+         Debug\stdafx.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“opencv_core2411d.lib”
+     1>已完成生成项目“E:\LV\Kinect\project\KinectMouse_3\KinectMouse\KinectMouse.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.47

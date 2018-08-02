@@ -1,0 +1,66 @@
+﻿生成启动时间为 2018/1/21 21:48:23。
+     1>项目“E:\LV\Kinect\project\KinectMouse_6\KinectMouse\KinectMouse.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\learning\vs2013.5_ult_chs\az\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\KinectMouse.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt myKinect.cpp
+         myKinect.cpp
+     1>e:\lv\kinect\project\kinectmouse_6\kinectmouse\myKinect.h(122): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_6\kinectmouse\myKinect.h(123): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_6\kinectmouse\myKinect.h(124): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_6\kinectmouse\myKinect.h(208): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_6\kinectmouse\myKinect.h(209): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\lv\kinect\project\kinectmouse_6\kinectmouse\myKinect.h(210): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>myKinect.cpp(174): warning C4244: “初始化”: 从“time_t”转换到“int”，可能丢失数据
+     1>myKinect.cpp(315): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(316): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(329): warning C4305: “参数”: 从“double”到“float”截断
+     1>myKinect.cpp(352): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(353): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(354): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(357): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(358): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(359): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(379): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(380): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(619): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(620): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(639): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>myKinect.cpp(640): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>myKinect.cpp(661): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(662): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(663): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(666): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(667): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(668): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(671): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(672): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(673): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(676): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(677): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(678): warning C4244: “参数”: 从“float”转换到“u_long”，可能丢失数据
+     1>myKinect.cpp(681): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(682): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(702): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(703): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(704): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(589): warning C4101: “faceProperties”: 未引用的局部变量
+     1>myKinect.cpp(875): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(898): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(919): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(920): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(952): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(953): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+     1>myKinect.cpp(1189): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+       Link:
+         D:\learning\vs2013.5_ult_chs\az\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\LV\Kinect\project\KinectMouse_6\x64\Release\KinectMouse.exe" /INCREMENTAL:NO /NOLOGO opencv_video2411.lib opencv_core2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib Kinect20.lib Kinect20.Face.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\LV\Kinect\project\KinectMouse_6\x64\Release\KinectMouse.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\LV\Kinect\project\KinectMouse_6\x64\Release\KinectMouse.lib" /MACHINE:X64 x64\Release\KinectJointFilter.obj
+         x64\Release\main.obj
+         x64\Release\myKinect.obj
+         x64\Release\stdafx.obj
+         正在生成代码
+     1>e:\lv\kinect\project\kinectmouse_6\kinectmouse\mykinect.cpp(810): warning C4715: “CBodyBasics::ProcessFaces”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         KinectMouse.vcxproj -> E:\LV\Kinect\project\KinectMouse_6\x64\Release\KinectMouse.exe
+     1>已完成生成项目“E:\LV\Kinect\project\KinectMouse_6\KinectMouse\KinectMouse.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.90
