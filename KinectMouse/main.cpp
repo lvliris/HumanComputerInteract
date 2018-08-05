@@ -16,18 +16,18 @@ using namespace cv;
 
 int main()
 {
-	////////////////////////////////////////¼ÓÔØÌ×½Ó×Ö////////////////////////////////////////////////////  
-	WORD wVersionRequested;//Ì×½Ó×Ö¿â°æ±¾ºÅ  
+	////////////////////////////////////////åŠ è½½å¥—æŽ¥å­—////////////////////////////////////////////////////  
+	WORD wVersionRequested;//å¥—æŽ¥å­—åº“ç‰ˆæœ¬å·  
 	WSADATA wsaData;
 	int err;
 
-	wVersionRequested = MAKEWORD(2, 2);//¶¨ÒåÌ×½Ó×ÖµÄ°æ±¾ºÅ  
+	wVersionRequested = MAKEWORD(2, 2);//å®šä¹‰å¥—æŽ¥å­—çš„ç‰ˆæœ¬å·  
 
-	err = WSAStartup(wVersionRequested, &wsaData);//´´½¨Ì×½Ó×Ö  
+	err = WSAStartup(wVersionRequested, &wsaData);//åˆ›å»ºå¥—æŽ¥å­—  
 	if (err != 0) {
 		return 0;
 	}
-	///´´½¨Ì×½Ó×ÖÊ§°Ü´¦Àí  
+	///åˆ›å»ºå¥—æŽ¥å­—å¤±è´¥å¤„ç†  
 	if (LOBYTE(wsaData.wVersion) != 2 ||
 		HIBYTE(wsaData.wVersion) != 2)
 	{
@@ -61,9 +61,6 @@ int main()
 			hr = myKinect.Update();
 			if (SUCCEEDED(hr))
 			{
-				//static int i = 0;
-				//if (i++ > 1000)
-				//	break;
 				sendto(sock, myKinect.data(), 108, 0, (sockaddr*)&addrServer, sizeof(sockaddr));
 			}
 #ifdef TIMER
